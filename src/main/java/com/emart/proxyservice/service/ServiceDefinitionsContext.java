@@ -1,14 +1,13 @@
 package com.emart.proxyservice.service;
 
-import java.util.List;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Collectors;
-
 import org.springframework.beans.factory.config.ConfigurableBeanFactory;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
-
 import springfox.documentation.swagger.web.SwaggerResource;
+
+import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.stream.Collectors;
 
 @Component
 @Scope(scopeName = ConfigurableBeanFactory.SCOPE_SINGLETON)
